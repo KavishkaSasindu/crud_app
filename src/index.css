@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-1 {
+    @apply px-3 py-2 rounded-md shadow-lg hover:text-white transition-all duration-300 hover:-translate-y-1;
+  }
+  .input-1 {
+    @apply p-2 w-[600px] shadow-md rounded-md bg-slate-100;
+  }
+}
